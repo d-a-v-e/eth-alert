@@ -1,7 +1,7 @@
 const Gdax = require('gdax');
 const slack = require('./slack');
 const program = require('commander');
-const publicClient = new Gdax.PublicClient('ETH-USD');		// public API might cap at 100 requests/day
+const publicClient = new Gdax.PublicClient('ETH-EUR');		// public API might cap at 100 requests/day
 
 program
 	.version('0.0.1')
@@ -34,4 +34,3 @@ let twenty_four = function(err, response, data) {
 publicClient.getProductTicker(ticker);
 
 // publicClient.getProduct24HrStats(twenty_four);
-

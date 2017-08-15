@@ -8,7 +8,7 @@ function slack(payload) {
 		'username': 'gdax_bot',
 		'icon_emoji': ':robot_face:',
 		'response_type': 'in_channel',
-		'channel_name': '@jon',			// replace
+		'channel_name': '@dave',			// replace
 		'text': payload
 	}
 

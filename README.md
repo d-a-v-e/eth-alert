@@ -24,7 +24,7 @@ $ update config.json with credentials
 
 Example: _single usage_ (single alert if price rises higher than 210 or falls below 200)
 ```bash
-$ node index.js -c 210 -f 200
+$ node index.js -c 242 -f 241
 ```
 
 Example: _cronjob to watch price/run every 30 seconds_ (recurring alert if price rises higher than 210 or falls below 200)

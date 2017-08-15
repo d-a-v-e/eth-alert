@@ -20,6 +20,18 @@ $ npm install
 $ update config.json with credentials
 ```
 
+### Slack webhook
+go to https://teamname.slack.com/apps/manage/custom-integrations and create a custom integreation
+
+create the file `config.json` in the root and add the following:
+
+```
+{
+  "SLACK_URL": "https://hooks.slack.com/services/XXXXX/XXXXX/XXXXX"
+}
+
+```
+
 ### usage
 
 Example: _single usage_ (single alert if price rises higher than 210 or falls below 200)

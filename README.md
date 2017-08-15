@@ -6,24 +6,16 @@ slack alerts for price of Ethereum on GDAX exchange
 
 ### installation
 
-install using node package manager
-
-https://www.npmjs.com/package/eth-alert
+clone repository
 ```bash
-$ npm install eth-alert
-```
-
-or clone repository
-```bash
-$ git clone https://github.com/waymobetta/eth-alert.git
+$ git clone https://github.com/d-a-v-e/eth-alert.git
 $ npm install
-$ update config.json with credentials
 ```
 
 ### Slack webhook
-go to https://teamname.slack.com/apps/manage/custom-integrations and create a custom integreation
+go to https://teamname.slack.com/apps/manage/custom-integrations and create a custom integration
 
-create the file `config.json` in the root and add the following:
+create the file `config.json` in the root and add the new url:
 
 ```
 {

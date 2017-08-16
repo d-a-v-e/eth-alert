@@ -5,7 +5,7 @@ const request = require('request');
 
 function slack(payload) {
 	let body = {
-		'username': 'GDAX',
+		'username': 'gdax_bot',
 		'icon_emoji': ':robot_face:',
 		'response_type': 'in_channel',
 		'channel_name': '@dave',			// replace

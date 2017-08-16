@@ -11,6 +11,8 @@ program
 	.option('-f, --floor [floor]', 'Input low alert')
 program.parse(process.argv);
 
+slack(`set floor: €${program.floor}  and ceiling: €${program.ceiling}`);
+
 let ticker = function(err, response, data) {
 	console.log(data);
 
